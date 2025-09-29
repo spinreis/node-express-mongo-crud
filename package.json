@@ -1,0 +1,30 @@
+{
+  "name": "node-express-mongo-crud",
+  "version": "1.1.0",
+  "description": "A simple CRUD API using TypeScript, Express, and MongoDB",
+  "main": "./src/app.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/app.ts",
+    "start": "node ./src/app.ts"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "typescript", "crud"],
+  "author": "Luis Pinto",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
