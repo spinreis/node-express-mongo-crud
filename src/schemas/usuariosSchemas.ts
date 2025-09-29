@@ -27,4 +27,4 @@ const usuariosSchema = new mongoose.Schema<Usuario>(
     }
 );
 
-export default mongoose.model('usuarios', usuariosSchema);
+export default mongoose.model(collectionName, usuariosSchema);
