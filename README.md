@@ -6,7 +6,7 @@ to practice and demonstrate modern backend development skills.
 
 It consists of an app for adopting pets (like dogs or cats) and it allows users to register, login, see their profiles, submit pets to adoption or delete them of the database.
 
-It implements all CRUD (Create, Read, Update, Delete) operations, using TypeScript for better scalability and maintainability, and securing routeswith JWT Authentication
+It implements all CRUD (Create, Read, Update, Delete) operations, using TypeScript for better scalability and maintainability, and securing routes with JWT Authentication
 (JSON Web Tokens). The database used is MongoDB, via Mongoose, an ODM for building schemas and validate the received data.
 
 ### Key Technologies
